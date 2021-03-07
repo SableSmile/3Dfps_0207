@@ -1162,7 +1162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
-  turn: 30
+  turn: 100
   jump: 300
   floorOffset: {x: 0, y: 0.08, z: 0}
   floorRadius: 0.1
@@ -1170,7 +1170,9 @@ MonoBehaviour:
   bullet: {fileID: 8665341277346695471, guid: 2a45f21c5e259d146871f5de7136048f, type: 3}
   bullet_current: 25
   bullet_total: 150
-  bullet_speed: 600
+  bullet_speed: 500
+  bullet_Current_text: {fileID: 0}
+  bullet_Total_text: {fileID: 0}
 --- !u!1 &4051376445175916379
 GameObject:
   m_ObjectHideFlags: 0
